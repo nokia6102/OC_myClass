@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2557F70520455DE800A7B513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2557F70420455DE800A7B513 /* main.m */; };
+		2557F70D20455E0D00A7B513 /* NewStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2557F70C20455E0D00A7B513 /* NewStudent.m */; };
+		2557F71020455E5F00A7B513 /* Sutdent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2557F70F20455E5F00A7B513 /* Sutdent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2557F70120455DE800A7B513 /* OC_Myclass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC_Myclass; sourceTree = BUILT_PRODUCTS_DIR; };
 		2557F70420455DE800A7B513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2557F70B20455E0D00A7B513 /* NewStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewStudent.h; sourceTree = "<group>"; };
+		2557F70C20455E0D00A7B513 /* NewStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewStudent.m; sourceTree = "<group>"; };
+		2557F70E20455E5F00A7B513 /* Sutdent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sutdent.h; sourceTree = "<group>"; };
+		2557F70F20455E5F00A7B513 /* Sutdent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sutdent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				2557F70420455DE800A7B513 /* main.m */,
+				2557F70E20455E5F00A7B513 /* Sutdent.h */,
+				2557F70F20455E5F00A7B513 /* Sutdent.m */,
+				2557F70B20455E0D00A7B513 /* NewStudent.h */,
+				2557F70C20455E0D00A7B513 /* NewStudent.m */,
 			);
 			path = OC_Myclass;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2557F70D20455E0D00A7B513 /* NewStudent.m in Sources */,
 				2557F70520455DE800A7B513 /* main.m in Sources */,
+				2557F71020455E5F00A7B513 /* Sutdent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
